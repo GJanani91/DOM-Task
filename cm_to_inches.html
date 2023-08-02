@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2>JavaScript HTML DOM Task</h2>
+<h3>Cm to inches conversion:</h3>
+        <link rel="stylesheet" href="cm_to_inches.css">
+    </head>
+<body>
+<label for="number">Centimeter</label><br><br>
+  <input type="number" id ="input" placeholder="Enter in cm"><br><br>
+  <button type="submit" onclick="convert()">Convert</button>
+  <p id="result">: inches</p>
+<script>
+function convert() {
+const a=document.getElementById("input").value;
+const b=a/2.54;
+document.getElementById("result").innerHTML=b.toFixed(2)+"  "+"inches";
+
+}
+    </script>
+</body>
+</html>
