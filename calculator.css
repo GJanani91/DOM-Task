@@ -1,0 +1,39 @@
+*{
+    /* margin: 0; */
+    background-color: darkgray;
+    /* box-sizing: border-box; */
+    /* outline: none; */
+    }
+    .heading{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+    }
+     .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:50px
+        
+        /* height:400px; */
+     }
+    .grid{
+        display:grid; 
+        border-radius: 10px;
+        grid-template-columns: repeat(4,30px);
+        padding: 40px;
+        }
+        input{
+            grid-column: span 4;
+            height:30px;
+            text-align: end;
+            
+        }  
+        button{
+            height: 60px;
+            width: 60px;
+        }
+      
+    
+      
