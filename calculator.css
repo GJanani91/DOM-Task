@@ -1,8 +1,8 @@
 *{
     /* margin: 0; */
-    background-color: darkgray;
+    background-color:gainsboro;
     /* box-sizing: border-box; */
-    /* outline: none; */
+
     }
     .heading{
         align-items: center;
@@ -14,25 +14,46 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height:50px
-        
-        /* height:400px; */
-     }
+        height:40%;
+      
+     } 
     .grid{
         display:grid; 
-        border-radius: 10px;
-        grid-template-columns: repeat(4,30px);
-        padding: 40px;
+        border-radius: 50%;
+        grid-template-columns: repeat(4,60px);
+        padding: 90px;
+        border-radius: 20px;
         }
         input{
             grid-column: span 4;
-            height:30px;
+            height:40px;
+            width: 210px;
             text-align: end;
+            background-color:darksalmon;
+            border-radius: 10px;
+            border: none;
+            margin: auto;
+            padding: 10px;
+            font-size: 30px;
+            font-weight: bold;
             
-        }  
-        button{
-            height: 60px;
-            width: 60px;
+        }
+         button{
+            height: 40px;
+            width: 40px;
+            border-radius: 30%;
+            margin: 5px;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: aqua;
+        } 
+        button:hover
+        {
+            background-color: darkgray;
+        }
+        .equal{
+            width:100px;
+            border-radius: 30px;
         }
       
     
